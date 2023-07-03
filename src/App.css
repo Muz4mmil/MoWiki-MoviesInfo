@@ -145,3 +145,15 @@
         margin-bottom: 10px;
       }
 }
+
+.credits{
+    position: absolute;
+    /* bottom: 20px; */
+    right: 10px;
+    font-size: 14px;
+    opacity: .7;
+}
+.credits a{
+    color: black;
+    font-weight: 700;
+}

@@ -60,10 +60,14 @@ const App = ()=> {
             </div>
           ) : (
             <div className="empty">
-              No Movie Found  :(
+              No Movie Found :(
             </div>
           )
         }
+
+      <div className="credits">
+        -by <a href="http://muz4mmil.github.io/">Muzammil</a>
+      </div>
 
     </div>
   )
