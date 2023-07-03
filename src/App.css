@@ -147,8 +147,8 @@
 }
 
 .credits{
-    position: absolute;
-    /* bottom: 20px; */
+    position: fixed;
+    bottom: 10px;
     right: 10px;
     font-size: 14px;
     opacity: .7;

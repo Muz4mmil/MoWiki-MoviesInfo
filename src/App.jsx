@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import MovieCard from './MovieCard';
 // 8d2e4ef4
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=8d2e4ef4"
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=8d2e4ef4"
 
 
 const App = ()=> {
@@ -19,17 +19,6 @@ const App = ()=> {
     setmovies(data.Search)
   }
 
-  const movie1 = {
-    "Title": "Avengers: Endgame",
-    "Year": "2019",
-    "imdbID": "tt4154796",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
-}
-
-  // useEffect(()=>{
-  //   searchMovies();
-  // }, [])
 
   return (
     <div className="App">
@@ -66,7 +55,7 @@ const App = ()=> {
         }
 
       <div className="credits">
-        -by <a href="http://muz4mmil.github.io/">Muzammil</a>
+        -by <a href="http://muz4mmil.github.io/" target='blank'>Muzammil</a>
       </div>
 
     </div>
